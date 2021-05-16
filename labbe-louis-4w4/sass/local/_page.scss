@@ -117,11 +117,13 @@ article{
     display: flex;
     
   justify-content: left;
-  margin-left: 2.5rem;
-
+  
+  @include tablette{
+    margin-left: 2.5rem;
+  }
     .entry-title{
       font-family: $font__title;
-      width: 50%;
+      width: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -129,6 +131,10 @@ article{
       background-color: #2a9d8f;
       color: #F1FAEE;
       padding: 1rem;
+
+      @include tablette{
+        width: 50%;
+      }
 
     }
 
@@ -160,9 +166,16 @@ article{
 }
 
 .post-thumbnail{
-  margin-left: 1rem;
+  margin-left: 2.5rem;
+
   img{
-    width: 40%;
+    
+    width: 90%;
+    @include tablette{
+      width: 40%;
+      //margin: 0 auto;
+    }
+    
     
   }
 }

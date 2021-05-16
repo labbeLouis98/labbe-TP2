@@ -828,6 +828,7 @@ Bouton burger
 .menu-toggle {
   padding: 0;
   border: 0;
+  margin-left: 2rem;
 }
 
 .menu-toggle:hover,
@@ -1307,6 +1308,7 @@ body.home::after {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #c3e1e2;
 }
 
 .nouvelles p {
@@ -1314,6 +1316,7 @@ body.home::after {
   justify-content: left;
   width: 70%;
   font-size: clamp(0.8rem, -0.875rem + 8.333vw, 1.4rem);
+  color: black;
 }
 
 .nouvelles img {
@@ -1779,17 +1782,24 @@ main {
   font-size: 1rem;
 }
 
+/*------------------------------Gallerire Accueil -----------------------------------------*/
 .galerie-accueil {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-right: 1rem;
+  margin: 0 auto;
   background-color: #c3e1e2;
   align-items: center;
   width: 100vw;
-  height: 40vh;
+  height: auto;
   /*--------------------------------------------Flip Card-------------------------------*/
+}
+
+@media (min-width: 800px) {
+  .galerie-accueil {
+    height: 40vh;
+  }
 }
 
 .galerie-accueil .flip-card {
@@ -1800,7 +1810,7 @@ main {
   margin: .5rem;
   border: .5rem solid #f4a261;
   border-radius: 5%;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .galerie-accueil .flip-card-inner {
@@ -1815,7 +1825,7 @@ main {
 
 @media (min-width: 1200px) {
   .galerie-accueil .flip-card-inner {
-    transform: scale(1.4);
+    transform: scale(1.8);
   }
 }
 
@@ -1958,12 +1968,17 @@ grid-template-rows: 60% 10% 30%;
 article .entry-header {
   display: flex;
   justify-content: left;
-  margin-left: 2.5rem;
+}
+
+@media (min-width: 800px) {
+  article .entry-header {
+    margin-left: 2.5rem;
+  }
 }
 
 article .entry-header .entry-title {
   font-family: "Montserrat", sans-serif;
-  width: 50%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1971,6 +1986,12 @@ article .entry-header .entry-title {
   background-color: #2a9d8f;
   color: #F1FAEE;
   padding: 1rem;
+}
+
+@media (min-width: 800px) {
+  article .entry-header .entry-title {
+    width: 50%;
+  }
 }
 
 article span {
@@ -1994,11 +2015,17 @@ article .entry-content p {
 }
 
 .post-thumbnail {
-  margin-left: 1rem;
+  margin-left: 2.5rem;
 }
 
 .post-thumbnail img {
-  width: 40%;
+  width: 90%;
+}
+
+@media (min-width: 800px) {
+  .post-thumbnail img {
+    width: 40%;
+  }
 }
 
 #primary > nav {
@@ -2139,7 +2166,7 @@ aside h2 {
   justify-content: center;
   width: 50%;
   padding: 1%;
-  margin: 0 auto;
+  margin: 1rem auto;
 }
 
 .admin-rapide div {
@@ -2161,7 +2188,7 @@ aside h2 {
 
 .admin-rapide div button {
   font-size: 1.2rem;
-  width: 20%;
+  width: 100px;
   height: 5rem;
 }
 

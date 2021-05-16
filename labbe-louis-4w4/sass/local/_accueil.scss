@@ -136,13 +136,15 @@ body.home::after {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    background-color: #c3e1e2;
 
     p {
         padding-left: 1rem;
         justify-content: left;
         width: 70%;
         font-size:clamp(.8rem, #{"-0.875rem + 8.333vw"}, 1.4rem);
+       
+        color: black;
         
     }
 

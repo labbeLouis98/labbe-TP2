@@ -81,6 +81,7 @@ main {
       
 }
 
+/*------------------------------Gallerire Accueil -----------------------------------------*/
 
 .galerie-accueil{
 
@@ -88,11 +89,17 @@ main {
     flex-direction: row;
     flex-wrap:wrap ;
     justify-content: space-around;
-    margin-right: 1rem;
+    margin: 0 auto;
     background-color: #c3e1e2;
     align-items: center;
     width: 100vw;
-    height: 40vh;
+    
+    height: auto;
+
+    @include tablette{
+      height: 40vh;
+    }
+    
 
 /*--------------------------------------------Flip Card-------------------------------*/
     .flip-card {
@@ -103,7 +110,7 @@ main {
         margin: .5rem;
         border: .5rem solid #f4a261;
         border-radius: 5%;
-        justify-content: center;
+        justify-content: space-around;
       }
       
       .flip-card-inner {
@@ -115,7 +122,7 @@ main {
         transform-style: preserve-3d;
         box-shadow: 0 4px 8px 0 rgb(3, 7, 17);
         @include desktop {
-          transform: scale(1.4);
+          transform: scale(1.8);
         }
         
         
