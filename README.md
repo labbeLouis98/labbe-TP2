@@ -7,7 +7,7 @@ https://github.com/labbeLouis98
 
 Liens Webdev:
 
-https://e1641980.webdev.cmaisonneuve.qc.ca/4w4/
+https://e1641980.webdev.cmaisonneuve.qc.ca/labbe-louis-4w4/
 
 -------------------------------------------------------IMPORTANT!!!---------------------------------------------------------- 
 Ce répertoire a été créé uniquement pour la remise finale du tp2 : https://github.com/labbeLouis98/labbe-TP2.git
