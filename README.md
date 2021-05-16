@@ -3,10 +3,13 @@
 TP2-labbe
 tp2-TIM Louis-Nicolas Labbé Mardi gr-1 Site web word press
 
+Compte GitHub:
 https://github.com/labbeLouis98
 
-Liens Webdev:
+Tp2 git Repository:
+https://github.com/labbeLouis98/labbe-TP2.git
 
+Liens Webdev:
 https://e1641980.webdev.cmaisonneuve.qc.ca/labbe-louis-4w4/
 
 -------------------------------------------------------IMPORTANT!!!---------------------------------------------------------- 
